@@ -1,7 +1,6 @@
 // 가로 세로의 길이를 구하는 데
 // 4개의 명함이 있다면 4개의 명함 중 가로가 가장 긴 것, 세로가 가장 긴 것을 찾아서 넓이 계산
 function solution(wallet) {
-  let answer = 0;
   let sizes = [0, 0];
 
   for (let i = 0; i < wallet.length; i++) {
