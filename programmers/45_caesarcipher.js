@@ -30,6 +30,7 @@ function solution(s, n) {
 
 console.log(solution("a z b", 4));
 
+// 다른 사람 코드
 // function solution(s, n) {
 //   let result = "";
 
