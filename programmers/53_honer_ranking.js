@@ -21,7 +21,9 @@ function solution(k, score) {
 }
 
 let score = [10, 100, 20, 150, 1, 100, 200];
+let score2 = [100, 10, 1, 150, 20, 100, 200];
 console.log(solution(3, score));
+
 // let min = Math.min.apply(null, score);
 // console.log(Math.min(min));
 
