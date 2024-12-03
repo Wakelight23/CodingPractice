@@ -1,9 +1,9 @@
-function solution(num1, num2) {
-  if (num1 === num2) {
-    return 1;
-  } else {
-    return -1;
-  }
+function solution(n) {
+  const tpyeofmap = (arg) => Number(arg);
+  return Array.from(String(n).split("").reverse(), tpyeofmap);
 }
 
-console.log(solution(2, 1));
+let n = 12345;
+
+console.log(solution(n));
+// console.log(String(n).split("").reverse());
