@@ -1,9 +1,10 @@
 function solution(n) {
-  const tpyeofmap = (arg) => Number(arg);
-  return Array.from(String(n).split("").reverse(), tpyeofmap);
+  return +String(n)
+    .split("")
+    .sort((a, b) => b - a)
+    .join("");
 }
 
-let n = 12345;
+let n = 118372;
 
 console.log(solution(n));
-// console.log(String(n).split("").reverse());
