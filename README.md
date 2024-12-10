@@ -1,2 +1,2 @@
-# CodeingPractice
+# CodingPractice
  coding test practice 
