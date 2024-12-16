@@ -1,17 +1,5 @@
-// 두 정수 사이의 합
-function solution(a, b) {
-  var answer = 0;
-  let lowernum = [a, b];
-  lowernum.sort((a, b) => a - b);
+const arr = [1, 2, 3, 4, 5];
 
-  for (lowernum[0]; lowernum[0] <= lowernum[1]; lowernum[0]++) {
-    answer += lowernum[0];
-  }
+const lastValue = arr[arr.length - 2];
 
-  return answer;
-}
-
-let a = 3;
-let b = 3;
-
-console.log(solution(a, b));
+console.log(lastValue);
