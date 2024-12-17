@@ -4,7 +4,6 @@ function solution(left, right) {
     .fill(left)
     .map((left, right) => left + right);
   // 각 수마다 약수 개수 판별
-  let lc = [];
   let result = 0;
   for (let i = 0; i < arr1.length; i++) {
     let count = 0;
