@@ -11,7 +11,8 @@ function solution(lottos, win_nums) {
       }
     }
   }
-
+    
+  // 최저 당첨번호의 로또 순위  
   if (wrost === 6) {
     result.push(1);
   } else if (wrost === 5) {
@@ -39,7 +40,7 @@ function solution(lottos, win_nums) {
     }
   }
 
-  // 로또 순위
+  // 최고 당첨번호의 로또 순위
   if (best === 6) {
     result.unshift(1);
   } else if (best === 5) {
