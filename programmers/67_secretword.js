@@ -30,6 +30,7 @@ function solution(s, skip, index) {
 }
 
 // 처음 고안한 방법
+// 문제점 indexOf 초기화가 잘못됨
 // function solution(s, skip, index) {
 //   let result = [];
 //   let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
